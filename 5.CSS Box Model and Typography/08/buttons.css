@@ -1,0 +1,27 @@
+.button{
+    font-size: 18px;
+    padding: 1em 1.5em;
+    text-align: center;
+    background: #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
+}
+
+.primary{
+    background-color: orange;
+}
+
+.secondary{
+    background-color: rgb(233, 233, 17);
+}
+
+.outline{
+    background-color: white;
+}

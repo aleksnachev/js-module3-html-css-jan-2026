@@ -1,0 +1,16 @@
+.card-ctr{
+    width: 20%;
+    border: 1px solid black;
+    display:inline-block;
+    border-radius: 10px;
+}
+img{
+    width:100%
+}
+.text-ctr{
+    padding: 10px;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 20px;
+}

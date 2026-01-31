@@ -1,0 +1,29 @@
+#wrapper{
+    width: 80%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+body{
+    background-color: grey;
+}
+
+header, section, footer{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 4px;
+}
+
+.main-ctr{
+    display: flex;
+}
+
+.main-ctr section:first-of-type{
+    width: 70%;
+}
+
+.main-ctr section:last-of-type{
+    width: 30%;
+}

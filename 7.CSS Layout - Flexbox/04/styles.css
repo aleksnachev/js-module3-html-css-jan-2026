@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color: orange;
+    padding: 5px 9px;
+}
+li{
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+li:hover{
+    background: greenyellow;
+}
+ul{
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+}
+nav{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh ;
+    padding: 3em 2em;
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+.cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.card{
+    flex: 1 0 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    padding: 1.3em;
+    background-color: #f8f8f8;
+}

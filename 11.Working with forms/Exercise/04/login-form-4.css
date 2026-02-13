@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css");
+
 *{
     padding: 0;
     margin: 0;
@@ -39,7 +41,6 @@ legend{
     display: block;
     font-size: 1.8em;
     font-weight: bold;
-    border-bottom: 2px solid #ccc;
     padding-bottom: 1.2rem;
 }
 
@@ -52,33 +53,40 @@ legend{
 .login input{
     display: block;
     width: 100%;
-    border: 2px solid #ccc;
+    border: none;
+    border-bottom: 2px solid #ccc;
     border-radius: 0.3em;
-    padding: 1em 1.5em;
 }
 
 .login input[type="submit"]{
     border: none;
-    background: darkorange;
-    color: #fff;
+    background: #eee;
+    color: black;
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 1em;
+    padding: 1em 1.5em;
+
 }
 
 .login .field{
     display: flex;
     flex-direction: column;
     margin: 0.5em 0;
+    padding-bottom: 1em;
+    position: relative;
 }
 
 .login .field label{
     order: -1;
 }
 
-.login input:required ~ label::after{
-    content: '*';
-    color: red;
-    padding: 0.3em;
-    display: inline-block;
+.helper-text{
+    font-style: italic;
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+.helper-text:first-of-type{
+    margin-bottom: 2em;
 }

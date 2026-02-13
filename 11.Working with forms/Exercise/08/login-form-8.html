@@ -12,7 +12,13 @@
 
     <form class="login">
         <fieldset>
-            <legend>Login</legend>
+            <legend>Conatct</legend>
+
+            <p class="field">
+                <input type="text" id="name" required>
+                <label for="name">Your name</label>
+                <span class="helper-text">First and Last name is enough</span>
+            </p>
 
             <p class="field">
                 <input type="email" id="email" required>
@@ -21,9 +27,15 @@
             </p>
 
             <p class="field">
-                <input type="password" id="password" required>
-                <label for="password">Password</label>
-                <span class="helper-text">minimum 6 chars,letters and numbers,at least 1 special char</span>
+                <input type="textt" id="subject" required>
+                <label for="subject">Subject</label>
+                <span class="helper-text">What is this about?</span>
+            </p>
+
+            <p class="field">
+                <textarea id="message" required></textarea>
+                <label for="message">Message</label>
+                <span class="helper-text">Let us know what you need</span>
             </p>
 
             <input type="submit" value="Login">

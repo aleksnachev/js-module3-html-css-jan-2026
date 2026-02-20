@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body{
+    font-family: 'Gochi Hand';
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    margin: 0;
+}
+
+.postcard{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 650px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background: white;
+    overflow: hidden;
+}
+
+.postcard-front, .postcard-back{
+    flex:1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.postcard-front{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.postcard-front img{
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: auto;
+}
+
+.postcard-front .message{
+    position: absolute;
+    bottom: 30px;
+    border-radius: 1em;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 0 40px 0 40px;
+    text-align: center;
+}
+
+.postcard-front .message h2{
+    color: #333;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.postcard-front .message p{
+    color: #333;
+    font-size: 14px;
+    margin: 0;
+}
+
+.postcard-back{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    align-items: flex-start;
+}
+
+.postcard-back h2{
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.postcard-back p{
+    margin: 5px 0;
+    color: #333;
+}
+

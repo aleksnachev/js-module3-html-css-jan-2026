@@ -1,0 +1,89 @@
+@media (max-width: 600px) {
+  .home-navbar {
+    flex-direction: row; 
+    justify-content: center;
+    gap: 1.5em;
+  }
+
+  .home-links-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    justify-content: space-evenly;
+  }
+
+  .home-link, .home-link1, .home-link2, .home-link3 {
+    font-size: 14px;
+  }
+
+
+  .home-cta-btn {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+
+  .home-features {
+    height: auto; 
+    padding-bottom: 40px;
+  }
+
+  .home-heading-container {
+    width: 100%;
+  }
+
+  .home-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-feature-card,
+  .home-feature-card1,
+  .home-feature-card2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .home-image2, .home-image3, .home-image4 {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
+
+  .home-stats {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .home-hero {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .home-image1 {
+    width: 100%;
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .home-hero-text-container {
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Section-Heading, .home-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .home-text02, .home-text04 {
+    text-align: center;
+  }
+
+  .home-cta-btn2 {
+    align-self: center;
+  }
+}

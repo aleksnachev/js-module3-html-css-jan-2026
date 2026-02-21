@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
   .home-navbar {
     flex-direction: row; 
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 1.5em;
   }
 
@@ -13,7 +13,7 @@
   }
 
   .home-link, .home-link1, .home-link2, .home-link3 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
 
@@ -85,5 +85,6 @@
 
   .home-cta-btn2 {
     align-self: center;
+    padding: 15px 25px;
   }
 }

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+body{
+    font-family: 'Margarine';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5em;
+    gap:1em;
+    background-color: #FFF0E4;
+}
+
+.personal-info{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em 2em 2em ;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.top-info{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #BBBBBB;
+    width: 100%;
+}
+
+.top-info .work-card{
+    margin: 0.6em 0;
+}
+
+.top-info .work-card i{
+    color: #2991E6;
+    margin: 0 1em 0 0;
+}
+
+.top-info h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.bottom-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-info .bar {
+    background-color: #FFF0E4;
+    height: 22px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bottom-info .progress {
+    background-color: #2991E6;
+    height: 100%;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.photoshop {
+    width: 90%;
+}
+
+.photography {
+    width: 80%;
+}
+
+.illustrator {
+    width: 75%;
+}
+
+.media {
+    width: 50%;
+}
+
+.work-experience{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.work-experience .info{
+    margin-bottom: 10px;
+}
+
+.work-experience h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.work-experience .info:nth-child(odd){
+    border-top: 2px solid #BBBBBB;
+    border-bottom: 2px solid #BBBBBB;
+}
+
+.work-experience .info h3{
+    font-weight: 600;
+    color: #6B6560;
+}
+
+.work-experience .info .date{
+    color: #2991E6;
+    margin-bottom: 8px;
+}
